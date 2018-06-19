@@ -1,0 +1,10 @@
+[{
+  "modid": "ruby",
+  "name": "Ruby",
+  "description": "Provide a new ingot, block which are using ruby",
+  "version": "0.0.1",
+  "mcversion": "1.12",
+  "url": "https://rankki.xyz",
+  "authorList": ["RanKKI"],
+  "credits": "RanKKI"
+}]

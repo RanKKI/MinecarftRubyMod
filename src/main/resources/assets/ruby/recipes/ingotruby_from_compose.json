@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ASA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      }
+    ],
+    "S": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ruby:ingotruby",
+    "data": 0
+  }
+}

@@ -12,6 +12,7 @@ import xyz.rankki.ruby.blocks.BlockOreRuby;
 import xyz.rankki.ruby.blocks.BlockRuby;
 import xyz.rankki.ruby.generator.OreRubyGenerator;
 import xyz.rankki.ruby.items.IngotRuby;
+import xyz.rankki.ruby.items.PickaxeRuby;
 
 @Mod(modid = Ruby.modid, useMetadata = true)
 public class Ruby {
@@ -24,18 +25,21 @@ public class Ruby {
     public static IngotRuby ingotRuby;
     public static BlockRuby blockRuby;
     public static BlockOreRuby blockOreRuby;
+    public static PickaxeRuby pickaxeRuby;
 
     private void initVar(FMLPreInitializationEvent event){
         logger = event.getModLog();
         ingotRuby = new IngotRuby();
         blockRuby = new BlockRuby();
         blockOreRuby = new BlockOreRuby();
+        pickaxeRuby = new PickaxeRuby();
     }
 
     private void register(){
         ingotRuby.register();
         blockRuby.register();
         blockOreRuby.register();
+        pickaxeRuby.register();
     }
 
     @Mod.EventHandler
@@ -62,6 +66,7 @@ public class Ruby {
             ingotRuby.registerTextures();
             blockRuby.registerTextures();
             blockOreRuby.registerTextures();
+            pickaxeRuby.registerTextures();
         }
     }
 }

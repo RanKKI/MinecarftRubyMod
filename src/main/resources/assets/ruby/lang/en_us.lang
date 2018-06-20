@@ -1,4 +1,6 @@
 item.ruby.IngotRuby.name=Ruby Ingot
+item.ruby.PickaxeRuby.name=Ruby Pickaxe
+
 
 tile.ruby.BlockRuby.name=Ruby Block
 tile.ruby.BlockOreRuby.name=Ruby Ore

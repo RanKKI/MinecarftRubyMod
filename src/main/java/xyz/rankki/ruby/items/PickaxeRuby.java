@@ -5,6 +5,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import xyz.rankki.ruby.Ruby;
+import xyz.rankki.ruby.creatvietabs.CreativeTabRuby;
 
 public class PickaxeRuby extends ItemPickaxe {
 
@@ -17,6 +18,7 @@ public class PickaxeRuby extends ItemPickaxe {
         setRegistryName(registryName);
         setUnlocalizedName(unlocalizedName);
         setHarvestLevel("pickaxe", 3);
+        setCreativeTab(CreativeTabRuby.instance);
     }
 
     public void register() {

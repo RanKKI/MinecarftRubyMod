@@ -4,3 +4,6 @@ item.ruby.PickaxeRuby.name=Ruby Pickaxe
 
 tile.ruby.BlockRuby.name=Ruby Block
 tile.ruby.BlockOreRuby.name=Ruby Ore
+
+
+itemGroup.tabruby=Ruby

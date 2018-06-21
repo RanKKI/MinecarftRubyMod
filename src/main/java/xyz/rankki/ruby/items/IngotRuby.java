@@ -2,10 +2,10 @@ package xyz.rankki.ruby.items;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import xyz.rankki.ruby.Ruby;
+import xyz.rankki.ruby.creatvietabs.CreativeTabRuby;
 
 public class IngotRuby extends Item {
 
@@ -16,7 +16,7 @@ public class IngotRuby extends Item {
     public IngotRuby() {
         setUnlocalizedName(unlocalizedName);
         setRegistryName(registryName);
-        setCreativeTab(CreativeTabs.MATERIALS);
+        setCreativeTab(CreativeTabRuby.instance);
     }
 
     public void register() {
